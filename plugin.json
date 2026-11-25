@@ -1,0 +1,20 @@
+{
+  "name": "antigravity-session-autotitle",
+  "displayName": "Session AutoTitle",
+  "version": "0.1.0",
+  "description": "根据对话需求，通过生命周期 Hook 自动为 Antigravity 会话生成简洁、具体、可持续更新的中文标题（[对象](动作)任务）。",
+  "author": {
+    "name": "MyOldTime",
+    "url": "https://github.com/MyOldTime"
+  },
+  "homepage": "https://github.com/MyOldTime/antigravity-session-autotitle#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MyOldTime/antigravity-session-autotitle"
+  },
+  "suggestedPrompts": [
+    "帮我把操作日志接口改成按 createTime 倒序排序",
+    "修复登录接口 401 后刷新 Token 并重试原请求的问题",
+    "梳理当前项目的目录结构并补充核心模块的单元测试"
+  ]
+}

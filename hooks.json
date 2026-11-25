@@ -1,0 +1,11 @@
+{
+  "session-autotitle": {
+    "PreInvocation": [
+      {
+        "type": "command",
+        "command": "node src/hook.mjs",
+        "timeout": 10
+      }
+    ]
+  }
+}

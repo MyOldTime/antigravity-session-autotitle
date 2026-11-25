@@ -1,0 +1,40 @@
+{
+  "name": "antigravity-session-autotitle",
+  "version": "0.1.0",
+  "description": "Concise, adaptive Chinese session titles for Antigravity via native PreInvocation hook and local ConversationService writer.",
+  "type": "module",
+  "license": "MIT",
+  "author": "MyOldTime",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MyOldTime/antigravity-session-autotitle.git"
+  },
+  "homepage": "https://github.com/MyOldTime/antigravity-session-autotitle#readme",
+  "bugs": {
+    "url": "https://github.com/MyOldTime/antigravity-session-autotitle/issues"
+  },
+  "files": [
+    "plugin.json",
+    "hooks.json",
+    "src/",
+    "examples/",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20.3.0"
+  },
+  "scripts": {
+    "check": "node --check src/title-format.mjs && node --check src/naming.mjs && node --check src/store.mjs && node --check src/conversations-api.mjs && node --check src/transcript.mjs && node --check src/controller.mjs && node --check src/hook.mjs && node --check src/apply-title.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "keywords": [
+    "antigravity",
+    "antigravity-plugin",
+    "session",
+    "autotitle",
+    "hooks",
+    "chinese"
+  ]
+}

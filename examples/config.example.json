@@ -1,0 +1,14 @@
+{
+  "mode": "adaptive",
+  "language": "zh-CN",
+  "cooldownMs": 60000,
+  "minNewUserTurns": 4,
+  "manageSubsessions": false,
+  "softTitleWidth": 44,
+  "hardTitleWidth": 100,
+  "maxSubjectWidth": 28,
+  "maxVerbWidth": 8,
+  "maxTargetWidth": 48,
+  "maxTasks": 8,
+  "maxDisplayFragments": 2
+}
